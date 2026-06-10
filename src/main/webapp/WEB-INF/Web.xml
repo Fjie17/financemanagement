@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>Admin1Servlet</servlet-name>
+        <servlet-class>com.servlet.Admin1Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminServlet</servlet-name>
+        <url-pattern>/admin1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>Admin2Servlet</servlet-name>
+    <servlet-class>com.servlet.Admin2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>Admin2Servlet</servlet-name>
+	    <url-pattern>/admin2</url-pattern>
+	</servlet-mapping>
+	<servlet>
+    <servlet-name>ViewReservationRecordsServlet</servlet-name>
+    <servlet-class>com.servlet.ViewReservationRecordsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ViewReservationRecordsServlet</servlet-name>
+	    <url-pattern>/ViewReservationRecords</url-pattern>
+	</servlet-mapping>
+	<servlet>
+    <servlet-name>ProcessReimbursementApprovalServlet</servlet-name>
+    <servlet-class>com.servlet.ProcessReimbursementApprovalServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ProcessReimbursementApprovalServlet</servlet-name>
+	    <url-pattern>/ProcessReimbursementApprovalServlet</url-pattern>
+	</servlet-mapping>
+	
+    
+</web-app>
